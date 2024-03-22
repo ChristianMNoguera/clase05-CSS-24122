@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con estilos</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 class="heading-form">Formulario de registro</h1>
+    <form >
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="dateNac">Fecha de nacimiento</label>
+                        <input type="date" name="date" id="dateNac">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="vacuna">Tiene vacuna?</label>
+                        <input type="checkbox" name="checkbox" id="vacuna">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dni">Ingrese su DNI</label>
+                        <input type="number" name="number" id="dni">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Ingrese su contraseña</label>
+                        <input type="password" name="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>  
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Contacto</legend>
+            <table>
+                <tr><td>Chat:</td></tr>
+                <tr><td><textarea name="chat" rows="10" cols="40">Escriba su mensaje</textarea></td></tr>
+                <tr><td><input type="submit"></td></tr>
+            </table>    
+        </fieldset>
+    </form>
+    <a href="./index.html">Volver al Home</a>
+</body>
+</html>
